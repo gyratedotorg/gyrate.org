@@ -1,0 +1,28 @@
+body {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 8px;
+    }
+}
+
+pre {
+    margin-top: 20%;
+}
+
+a:link,
+a:visited {
+    color: #369;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
