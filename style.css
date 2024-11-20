@@ -13,6 +13,10 @@ body {
     }
 }
 
+.body-margin {
+    width: 38em;
+}
+
 pre {
     margin-top: 20%;
 }
